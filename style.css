@@ -96,6 +96,22 @@ body {
     color: lightskyblue;
 }
 
+.link-blue:nth-child(1) a:link {
+    color:lightskyblue
+}
+
+.link-blue:nth-child(1) a:visited {
+    color:lightskyblue
+}
+
+.link-blue:nth-child(2) a:link {
+    color: lightskyblue;
+}
+
+.link-blue:nth-child(2) a:visited {
+    color: lightskyblue;
+}
+
  .get-the-app {
      display: flex;
      flex-direction: column;
@@ -108,7 +124,7 @@ body {
  .download {
      display: flex;
      width: 100%;
-     justify-content: space-evenly;
+     justify-content: center;
      align-items: center;
      padding: 1rem;
  }
@@ -117,6 +133,7 @@ body {
      height: 3rem;
      width: 10rem;
      background-size: cover;
+     margin: 0 10px;
  }
 
  .app-download:nth-child(1) {
